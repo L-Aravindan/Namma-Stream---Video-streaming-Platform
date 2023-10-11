@@ -30,6 +30,8 @@ const Comment = ({name,uploaded,image,comment}) => {
     </div>
     
   )
-}
+};
+
+
 
 export default Comment
