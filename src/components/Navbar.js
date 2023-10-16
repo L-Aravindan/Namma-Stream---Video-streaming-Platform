@@ -31,9 +31,9 @@ const Navbar = () => {
         <div className="text-yt-white p-2 w-10 text-2xl text-center hover:bg-yt-light-black rounded-full cursor-pointer">
           <HiOutlineBars3 />
         </div>
-        <div className="py-5 w-32 pr-3">
+        <div className="py-5 w-56 pr-3">
           <Link to="/">
-            <img src={logo} alt="" className="object-contain" />
+            <img src={logo} alt="" className="object-contain w-56 " />
           </Link>
         </div>
       </div>
